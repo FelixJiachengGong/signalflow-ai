@@ -1,0 +1,10 @@
+{
+  "name": "signalflow-ai",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Phase 1 - Rule-based MVP: explainable product decisions from synthetic feedback. No LLM, RAG or Agent implementation.",
+  "scripts": {
+    "test": "node --test tests/analysis.test.js"
+  }
+}

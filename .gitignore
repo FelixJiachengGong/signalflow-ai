@@ -1,0 +1,37 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Python caches / environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Optional JavaScript tooling / build output
+node_modules/
+coverage/
+dist/
+
+# Local credentials and machine-specific configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.codex/
+.agents/
+.aws/
+
+# Editor caches / temporary files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.log
+
+# Downloaded decision summaries (source data and screenshots stay tracked)
+signalflow-decision-summary*.md
